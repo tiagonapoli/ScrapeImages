@@ -1,18 +1,3 @@
-'''
-CS.661: Computer Vision
-Johns Hopkins University
-Flynn, Michael
-
-Python script to scrape images from Google CSE.
-
-Usage:
-    python scrape_images.py {directory} {num_queries}
-
-
-Needs:
-	pip -> google-api-python-client
-'''
-
 from apiclient.discovery import build
 from PIL import Image
 from urllib.request import urlopen,Request
